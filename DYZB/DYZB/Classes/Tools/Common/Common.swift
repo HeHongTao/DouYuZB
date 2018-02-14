@@ -17,6 +17,14 @@ let kNavigationBarH : CGFloat = 44
 let kScreenW = UIScreen.main.bounds.width
 let kScreenH = UIScreen.main.bounds.height
 
+//swift中的写法
+func RGBCOLOR(r:CGFloat,_ g:CGFloat,_ b:CGFloat) -> UIColor
+{
+    return UIColor(red: (r)/255.0, green: (g)/255.0, blue: (b)/255.0, alpha: 1.0)
+}
+
+
+
 
 
 
